@@ -1,0 +1,9 @@
+Команды для папки 'my-app'
+  cd my-app
+  npm install
+  npm start
+
+Команды для папки 'server'
+  cd server
+  npm install
+  npm run dev
