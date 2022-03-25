@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Na_ACE",
+    "url": "../Home/avatar.png",
+    "message": "Changes in the site: The library began to be used for the site bootstrap, because of which the site had to be redone again. New features were added (this is how it should be). The game shows no signs of life."
+  },
+  {
+    "name": "Na_ACE",
+    "url": "../Home/avatar.png",
+    "message": "The game uses the Phaser engine"
+  },
+  {
+    "name": "Na_ACE",
+    "url": "../Home/avatar.png",
+    "message": "Site design 0.3"
+  },
+  {
+    "name": "Na_ACE",
+    "url": "../Home/avatar.png",
+    "message": "Site design 0.2"
+  },
+  {
+    "name": "Na_ACE",
+    "url": "../Home/avatar.png",
+    "message": "Site design 0.1"
+  }
+]

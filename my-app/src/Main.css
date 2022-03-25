@@ -1,0 +1,255 @@
+body {
+  font-family: Mali;
+
+  position: relative;
+  line-height: 1.4;
+  color: #000;
+  min-width: 320px;
+  overflow-x: hidden;
+  height: auto;
+}
+
+.popup-fade {
+  display: none;
+}
+
+.popup-fade:before {
+  content: "";
+  background: #000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  z-index: 9999;
+}
+
+.popup {
+  position: fixed;
+
+  top: 20%;
+  left: 50%;
+  padding: 20px;
+  margin-left: -200px;
+  background: #fff;
+  border: 1px solid orange;
+  border-radius: 4px;
+  z-index: 99999;
+  opacity: 1;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.popup a {
+  text-decoration: none;
+  color: black;
+}
+
+.popup form {
+  background: white;
+  float: left;
+  width: calc(100% - 240px);
+  padding: 30px;
+  border-radius: 0 20px 20px 0;
+  color: #7b7b7b;
+}
+
+.popup form div {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.popup h1 {
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  margin-top: 50px;
+  margin: 0;
+}
+
+.popup label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.navbar {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  background-color: #292929;
+  height: 60px;
+  width: 100%;
+}
+
+.navbar .container {
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+  display: flex;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  margin: 0;
+}
+
+.navbar-menu li {
+  display: inline-block;
+}
+
+.navbar-menu li a {
+  display: inline-block;
+  color: #fff;
+  opacity: 0.6;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  transition: all 0.07s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+  color: greenyellow;
+  opacity: 1;
+}
+
+.navbar-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Изменить цвет фона кнопок при наведении */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Создать активный / текущий класс tablink */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tabcontent {
+  animation: fadeEffect 1s;
+  /* Эффект затухания занимает 1 секунду */
+}
+
+/* Перейти от нуля до полной непрозрачности */
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.post {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 0.1pc solid gray;
+  background-color: snow;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  padding: 16px;
+  width: 100%;
+}
+
+.info {
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: inherit;
+  display: flex;
+  padding: 8px;
+}
+.info img {
+  border-radius: 100px;
+  width: 50px;
+}
+.info span {
+  padding-left: 14px;
+  font-size: 21px;
+}
+
+.message {
+  font-size: 18px;
+  padding: 8px;
+}
+.message li {
+  padding-top: 8px;
+}
+
+.style_ignore {
+  position: absolute;
+  bottom: -64px;
+  width: 100%;
+}
+
+.style_ignore img {
+  width: 5%;
+}
+
+hr {
+  margin: 6px 0;
+}
+
+
+
+.post {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+  border: 0.1pc solid gray;
+  background-color: snow;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 16px;
+  width: 100%;
+}
+
+
+.info {
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: inherit;
+  display: flex;
+}
+.info img {
+  border-radius: 100px;
+  width: 50px;
+}
+.info span {
+  padding-left: 14px;
+  font-size: 100%;
+}
+
+
+.message {
+  font-size: 100%;
+  padding: 8px;
+}
+.message li {
+  padding-top: 8px;
+}

@@ -1,0 +1,20 @@
+.thanos {
+  text-align: center;
+}
+
+.top-users table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+.top-users td,
+th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.top-users img {
+  border-radius: 100px;
+  width: 140px;
+}

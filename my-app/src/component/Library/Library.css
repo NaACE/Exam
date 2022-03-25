@@ -1,0 +1,27 @@
+.product {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 0.1pc solid gray;
+  border-radius: 5px;
+  background-color:rgb(12, 13, 15);
+
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+  border: 1px solid black;
+
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.product .name {    
+  font-size: 16px;
+  color: snow;
+}
+
+.rating {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
